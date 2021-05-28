@@ -2,8 +2,8 @@
 
 ## Integrantes
 
-Yeimer Serrano Navarro - 20181020060
-Santiago Andres Gordillo Piñeros - 20181020170
+- Yeimer Serrano Navarro - 20181020060
+- Santiago Andres Gordillo Piñeros - 20181020170
 
 ## _Finalidad_
 
