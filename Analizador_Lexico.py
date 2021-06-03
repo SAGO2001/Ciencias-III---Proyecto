@@ -4,7 +4,18 @@ resul_lexema = []
 
 reservada = (
 
-    'RETURN','INT','IF'
+    'INCLUDE',
+    'USING',
+    'NAMESPACE',
+    'STD',
+    'COUT',
+    'CIN',
+    'GET',
+    'CADENA',
+    'RETURN',
+    'VOID',
+    'INT',
+    'END'
 )
 tokens = reservada + (
     'IDENTIFICADOR', 'ENTERO','ASIGNAR','SUMA','RESTA','MULT','DIV','POTENCIA','MODULO',
@@ -40,10 +51,13 @@ t_AND = r'\&\&'
 t_OR = r'\|{2}'
 t_NOT = r'\!'
 t_MENORQUE = r'<'
-#t_MAYORQUE = r'>'
+t_MENIGUA = r'<='
+t_MAYORQUE = r'>'
+#t_MAYORIGUAL = r'>='
 t_PUNTOCOMA = r';'
 t_COMA = r','
-#t_PARIZQ = r'\('
+t_DIF = r'!='
+t_PARIZQ = r'\('
 t_PARDER = r'\)'
 t_CORIZQ = r'\['
 t_CORDER = r'\]'
@@ -140,5 +154,3 @@ if __name__ == '__main__':
         data = input("Ingrese: ")
         prueba(data)
         print(resul_lexema)
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
